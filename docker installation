@@ -13,4 +13,10 @@ docker installation steps ,through linux terminal ;-
 9.  usermod -aG docker $USER
 10. docker version | grep API (you 'll see the docker API version 1.41( in nov 2022))
 
+docker compose installation:-
+
+sudo curl -L https://github.com/docker/compose/releases/download/1.29.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+
 
